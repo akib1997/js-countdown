@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url("./countdown.jpg");
+  background-size: cover;
+  background-position: center;
+  color: aliceblue;
+}
+
+h1 {
+  text-align: center;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  margin: 2rem;
+}
+.flex-item h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+input {
+  padding: 5px 10px;
+  border: 0;
+  display: block;
+  width: 100%;
+}
